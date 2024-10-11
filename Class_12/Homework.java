@@ -1,6 +1,6 @@
 package Class_12;
 
-public class Homework {
+class Homework {
     // 도형의 이름과 길이를 전달하면 넓이를 구하는 메서드
     // getArea() 오버라이딩 하기
     // 도형은 다음과 같이 구성

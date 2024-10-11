@@ -1,12 +1,12 @@
 package Class_12;
 
-public class Shape {
+class Shape {
     Shape() {
 
     }
 
     // 실수 타입 반지름을 갖는 원
-    public void getArea(String circle, float r) {
+    void getArea(String circle, float r) {
         System.out.println("원이군요");
         System.out.println(r*r*3.14f);
     }

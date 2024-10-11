@@ -1,6 +1,6 @@
 package Class_12;
 
-public class WhatType {
+class WhatType {
     WhatType() {
         
     }

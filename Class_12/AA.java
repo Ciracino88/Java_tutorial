@@ -1,6 +1,6 @@
 package Class_12;
 
-public class AA {
+class AA {
     int a,b,c,d;
     AA() {
         a=1;

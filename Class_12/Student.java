@@ -1,6 +1,6 @@
 package Class_12;
 
-public class Student {
+class Student {
     Phone p;
     int id;
     String name;
