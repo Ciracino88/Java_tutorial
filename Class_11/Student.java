@@ -1,3 +1,4 @@
+package Class_11;
 // 데이터 클래스
 public class Student {
     String name;
