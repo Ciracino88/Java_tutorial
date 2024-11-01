@@ -1,31 +1,6 @@
-import java.util.*;
+package Class_13;
 
-public class Class_13 {
-    public static void main(String[] args) {
-        TV tv1 = new TV("LG", 2024, 58);
-        tv1.show_info();
-
-        Song song1 = new Song();
-        song1.show_info();
-    }
-}
-
-class TV {
-    private String brand;
-    private int published_date;
-    private int width;
-
-    TV(String brand, int published_date, int width) {
-        this.brand = brand;
-        this.published_date = published_date;
-        this.width = width;
-    }
-
-    void show_info() {
-        String formatted_string = String.format("회사명 : %s\n제작년도 : %d년\n크기 : %d인치", brand, published_date, width);
-        System.out.println(formatted_string);
-    }
-}
+import java.util.Scanner;
 
 class Song {
     private String title;

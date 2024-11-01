@@ -1,15 +1,4 @@
-// 데이터 클래스 예제
-class AA {
-    // 속성은 필드다.
-    // 필드는 인스턴스 필드와 스테틱 필드로 나뉜다.
-    int a = 1234; // 인스턴스 필드
-}
-
-// 핸들러 클래스
-class People {
-    String name;
-    int age;
-}
+package Class_09;
 
 public class Class_09 {
     public static void main(String[] args) {

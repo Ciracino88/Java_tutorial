@@ -1,0 +1,24 @@
+은닉화
+
+클래스의 속성(필드)을 private 로 선언히여 외부 접근을 제한하는 행위
+getter, setter 메서드를 이용해 간접적으로 접근이 가능
+
+상속
+
+코드의 재사용성을 높임.
+다형성
+Animal dog = new Dog();
+Animal cat = new Cat();
+
+== 연산자는 위험.
+equles() 를 사용하여 비교하자.
+
+배열 내부 순회 (for-each)
+int[] arr = {1, 2, 3};
+for(int e: arr)
+    System.out.println(e);
+
+n차원 배열 출력
+int[][] arr = new int[][]{{1, 2}, {1, 2, 3}}
+Arrays.deepToString(arr)
+
